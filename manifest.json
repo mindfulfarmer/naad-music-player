@@ -1,9 +1,9 @@
 {
   "name": "Naad Music Player",
   "short_name": "Naad",
-  "description": "A lightweight offline music player for audiophiles.",
+  "description": "A lightweight, offline music player featuring dynamic audio visualization, folder-based library management, and loudness normalization.",
+  "id": "./index.html",
   "start_url": "./index.html",
-  "id": "/index.html",
   "display": "standalone",
   "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
   "background_color": "#F3F4F6",
@@ -37,16 +37,9 @@
   ],
   "shortcuts": [
     {
-      "name": "Home",
-      "short_name": "Home",
-      "description": "Go to Home",
-      "url": "./index.html",
-      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
-    },
-    {
       "name": "Library",
       "short_name": "Library",
-      "description": "Browse Folders",
+      "description": "Browse your music folders",
       "url": "./index.html",
       "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     }
@@ -57,14 +50,14 @@
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Music Player Interface"
+      "label": "Now Playing with Visualization"
     },
     {
       "src": "screenshot-desktop.png",
       "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Library Management"
+      "label": "Music Library Grid"
     }
   ]
 }
