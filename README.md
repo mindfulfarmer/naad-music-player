@@ -2,7 +2,7 @@
 
 Offline music player designed for audiophiles
 
-![Version](https://img.shields.io/badge/version-1.1-blue)
+![Version](https://img.shields.io/badge/version-2-blue)
 ![Status](https://img.shields.io/badge/status-stable-green)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
